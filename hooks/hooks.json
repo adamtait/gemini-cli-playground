@@ -1,0 +1,15 @@
+{
+  "description": "Ralph Wiggum plugin AfterAgent hook for self-referential loops",
+  "hooks": {
+    "AfterAgent": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${extensionPath}/hooks/after-agent-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

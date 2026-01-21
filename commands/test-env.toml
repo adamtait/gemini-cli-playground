@@ -1,0 +1,2 @@
+prompt = "!{env}"
+description = "Test command to see environment variables"

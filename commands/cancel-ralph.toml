@@ -1,0 +1,5 @@
+description = "Cancel the active Ralph loop"
+prompt = """
+The Ralph loop has been cancelled.
+!{rm -f .gemini/ralph-loop.local.md}
+"""
